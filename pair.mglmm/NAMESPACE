@@ -1,0 +1,11 @@
+useDynLib(pair.mglmm)
+
+exportPattern("^[[:alpha:]]+")
+
+import(Rcpp)
+import(RcppArmadillo)
+import(lme4)
+importFrom('MASS', mvrnorm)
+import(Matrix)
+import(reshape)
+import(powell)

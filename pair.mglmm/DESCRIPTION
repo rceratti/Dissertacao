@@ -1,0 +1,12 @@
+Package: pair.mglmm
+Type: Package
+Title: Pairwise fitting for Multivariate GLMM
+Version: 1.0-4
+Date: 2012-11-21
+Author: Rubem Ceratti
+Maintainer: Rubem Ceratti <rubem_ceratti@yahoo.com.br>
+Description: Pairwise fitting for Multivariate GLMM
+License: GPL
+Depends: cplm, doParallel
+Imports: Rcpp (>= 0.9.10), RcppArmadillo (>= 0.3.4.0), lme4, MASS, Matrix, tweedie, reshape, powell
+LinkingTo: Rcpp, RcppArmadillo
